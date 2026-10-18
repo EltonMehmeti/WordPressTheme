@@ -1,0 +1,17 @@
+{
+  "name": "sensitivity-finder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Blind flick test that finds your best mouse sensitivity, with an optional AI coach.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0"
+  }
+}
